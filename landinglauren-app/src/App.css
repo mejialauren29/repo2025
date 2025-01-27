@@ -1,0 +1,282 @@
+:root {
+  --primary-color: #AF181D;
+  --secondary-color: #6c757d;
+  --background-color: #f8f9fa;
+  --text-color: #333;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: var(--text-color);
+  background-color: var(--background-color);
+}
+
+.App {
+  text-align: center;
+}
+
+/* Hero Section */
+.hero {
+  background: var(--primary-color);
+  color: white;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.hero-content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.btn-primary {
+  padding: 10px 20px;
+  background: white;
+  color: var(--primary-color);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background: var(--secondary-color);
+  color: white;
+}
+
+.button-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Main Content */
+.main-content {
+  padding: 20px;
+}
+
+/* About Section */
+.about {
+  padding: 20px;
+  background: white;
+  margin: 20px auto;
+  max-width: 800px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Skills Section */
+.skills {
+  margin: 40px 0;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.skill-card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Portfolio Section */
+.portfolio {
+  margin: 40px 0;
+}
+
+.portfolio-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.portfolio-item {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Contact Section */
+.contact {
+  padding: 20px;
+  background: var(--primary-color);
+  color: white;
+  border-radius: 10px;
+  margin: 20px auto;
+  max-width: 800px;
+  text-align: left;
+}
+
+/* Footer */
+.footer {
+  background: var(--secondary-color);
+  color: white;
+  padding: 10px 0;
+}
+
+/* Hero Section */
+.hero {
+  background: var(--primary-color);
+  color: white;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.hero-content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.profile-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 5px solid white;
+  margin-bottom: 20px;
+  object-fit: cover;
+}
+
+/* Botón primario */
+.btn-primary {
+  padding: 10px 20px;
+  background: white;
+  color: var(--primary-color);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background: var(--secondary-color);
+  color: white;
+}
+
+.button-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Contact Section */
+.contact {
+  background: #AF181D;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.contact h2 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+.contact-info {
+  margin-bottom: 20px;
+}
+
+.contact-info p {
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.icon {
+  color: var(--background-color);
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.social-icon {
+  cursor: pointer;
+  color: var(--primary-color);
+  transition: color 0.3s;
+}
+
+.social-icon:hover {
+  color: var(--secondary-color);
+}
+
+/* Experience Section */
+.experience {
+  background: #f4f4f4;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.experience h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.experience-card {
+  background: white;
+  width: 70%;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.experience-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.experience-card .date {
+  font-size: 0.9rem;
+  color: #777;
+  margin-bottom: 15px;
+}
+
+.experience-card p {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+.experience-card ul {
+  padding-left: 20px;
+  list-style: disc;
+}
+
+.experience-card ul li {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+
+
+
